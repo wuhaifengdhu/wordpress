@@ -382,7 +382,7 @@ function populate_options() {
 	'home' => $guessurl,
 	'blogname' => __('My Site'),
 	/* translators: blog tagline */
-	'blogdescription' => __('Just another WordPress site'),
+	'blogdescription' => __('对酒当歌，人生几何'),
 	'users_can_register' => 0,
 	'admin_email' => 'you@example.com',
 	/* translators: default start of the week. 0 = Sunday, 1 = Monday */
