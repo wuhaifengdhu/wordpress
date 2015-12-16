@@ -137,7 +137,7 @@ function wp_admin_bar_my_account_item( $wp_admin_bar ) {
 	}
 
 	$avatar = get_avatar( $user_id, 26 );
-	$howdy  = sprintf( __('Howdy, %1$s'), $current_user->display_name );
+	$howdy  = sprintf( __('您好, %1$s'), $current_user->display_name );
 	$class  = empty( $avatar ) ? '' : 'with-avatar';
 
 	$wp_admin_bar->add_menu( array(
